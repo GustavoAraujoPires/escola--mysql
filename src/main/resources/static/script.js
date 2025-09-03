@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(error => {
       console.error('Erro ao buscar alunos:', error);
       alert('Erro ao carregar a lista de alunos.');
+
     });
 });

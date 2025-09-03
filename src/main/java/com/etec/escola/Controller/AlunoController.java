@@ -20,13 +20,11 @@ public class AlunoController {
 
     @GetMapping
     public List<Aluno> listaDeAlunos(){
-
         return alunoService.buscarAluno();
     }
 
     @PostMapping
     public Aluno salavarNovoAluno(@RequestBody Aluno dadosAluno){
-
         return alunoService.salvarAluno(dadosAluno);
     }
 

@@ -11,6 +11,7 @@ import java.util.List;
 
 @Service
 public class AlunoService {
+
     private final AlunoRepository alunoRepository;
 
     public AlunoService(AlunoRepository alunoRepository) {
