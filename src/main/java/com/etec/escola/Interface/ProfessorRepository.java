@@ -1,4 +1,7 @@
 package com.etec.escola.Interface;
 
-public interface ProfessorRepository {
+import com.etec.escola.Models.Aluno;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AlunoRepository extends JpaRepository <Aluno, Long>{
 }
